@@ -1,0 +1,9 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    AdrianBaez\Bundle\EasySfBundle\Utils\EntityUtils: ~
+    AdrianBaez\Bundle\EasySfBundle\Utils\EntityUtilsInterface: '@AdrianBaez\Bundle\EasySfBundle\Utils\EntityUtils'
+    AdrianBaez\Bundle\EasySfBundle\Utils\JsonUtils: ~
